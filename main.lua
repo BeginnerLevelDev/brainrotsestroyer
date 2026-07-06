@@ -9,8 +9,8 @@ local Window = Rayfield:CreateWindow({
 })
 
 -- Load Tab 2 module and pass the Window to it
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BeginnerLevelDev/brainrotsestroyer/refs/heads/main/movement.lua"))()
-
+loadTab1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/BeginnerLevelDev/brainrotsestroyer/refs/heads/main/movement.lua"))()
+loadTab1(Window)
 -- Final notification when everything is loaded
 Rayfield:Notify({ Name = "Loaded!", Content = "All tabs organized and ready.", Duration = 3
   })
