@@ -1,5 +1,5 @@
 -- Initialize Rayfield
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Organised Multi-Tab Hub",
