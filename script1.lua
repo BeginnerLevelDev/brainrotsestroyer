@@ -17,5 +17,4 @@ return function(Window)
            print("Auto Block:", Value)
        end,
     })
-en
-d
+end
